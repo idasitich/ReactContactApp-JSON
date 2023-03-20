@@ -7,12 +7,13 @@ import axios from 'axios';
 /* eslint-disable */
 
 function App() {
-  const [contacts, setContacts] = useState([]);
+    const [contacts, setContacts] = useState([]);
 
     const [formData, setFormData]=useState({
       name:"",
       telpn:"",
     });
+
     const [isUpdate, setIsUpdate]=useState({
       id: null, 
       status: false
@@ -31,9 +32,10 @@ function App() {
       data[e.target.name]=[e.target.value];
       setFormData(data);
     }
+
     function handleSubmit(e){
       e.preventDefault();
-      alert("oke");
+      alert("ingin benar benar disimpan");
       let data = [...contacts];
 
       if (formData.name === ""){
@@ -70,12 +72,14 @@ function App() {
       setContacts(data);
       setFormData({name:"",telpn:""})
     }
+
     function handleEdit(id){
       let data = [...contacts];
       let foundData = data.find((contact)=>contact.id===id);
       setFormData({name: foundData.name, telpn: foundData.telpn})
       setIsUpdate({id: id, status: true});
     }
+
     function handleDelete(id){
       let data = [...contacts];
       let filterData = data.filter((contact)=>contact.id!==id);
@@ -85,6 +89,7 @@ function App() {
         alert("data berhasil di delete");
       })
     }
+
   return (
     <>
     <div className="App">
@@ -117,9 +122,9 @@ function App() {
       </form>
       <List handleDelete={handleDelete} handleEdit={handleEdit} data={contacts} />
     </div>
-
     </>
   );
+
 }
 
 export default App;
