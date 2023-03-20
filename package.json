@@ -1,7 +1,7 @@
 {
   "name": "add-contact-app",
   "version": "0.1.0",
-  "homepage": "https://idasitich.github.io/react-gh-pages",
+  "homepage": "https://idasitich.github.io/ReactContactApp-JSON",
   "private": true,
   "dependencies": {
     "@babel/cli": "^7.21.0",
