@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.1970b7b3.css",
-    "main.js": "/react-gh-pages/static/js/main.8fd64926.js",
-    "static/js/787.2537ee28.chunk.js": "/react-gh-pages/static/js/787.2537ee28.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.1970b7b3.css.map": "/react-gh-pages/static/css/main.1970b7b3.css.map",
-    "main.8fd64926.js.map": "/react-gh-pages/static/js/main.8fd64926.js.map",
-    "787.2537ee28.chunk.js.map": "/react-gh-pages/static/js/787.2537ee28.chunk.js.map"
+    "main.css": "/ReactContactApp-JSON/static/css/main.1970b7b3.css",
+    "main.js": "/ReactContactApp-JSON/static/js/main.64b30038.js",
+    "static/js/787.2537ee28.chunk.js": "/ReactContactApp-JSON/static/js/787.2537ee28.chunk.js",
+    "index.html": "/ReactContactApp-JSON/index.html",
+    "main.1970b7b3.css.map": "/ReactContactApp-JSON/static/css/main.1970b7b3.css.map",
+    "main.64b30038.js.map": "/ReactContactApp-JSON/static/js/main.64b30038.js.map",
+    "787.2537ee28.chunk.js.map": "/ReactContactApp-JSON/static/js/787.2537ee28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1970b7b3.css",
-    "static/js/main.8fd64926.js"
+    "static/js/main.64b30038.js"
   ]
 }
